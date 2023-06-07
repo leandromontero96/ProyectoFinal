@@ -1,0 +1,129 @@
+/* Colores específicos */
+body {
+    background-color: #f80707;
+  }
+  
+  .navbar {
+    background-color: #f8ab05;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #007bff;
+  }
+  
+  .footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Clases */
+  .section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #067cfa;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* ID */
+  #header {
+    background-color: #ff0798;
+    padding: 20px;
+  }
+  
+  /* Box-modeling */
+  .box {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #04bd66;
+    box-sizing: border-box;
+  }
+  
+  /* Fuente */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  /* Flexbox */
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .item {
+    flex-basis: 30%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #d407fd;
+    border: 1px solid #cccccc;
+  }
+  
+  /* Grid */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .grid-item {
+    background-color: #f79605;
+    border: 1px solid #cccccc;
+    padding: 10px;
+  }
+  
+  /* Media queries */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .item {
+      flex-basis: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
